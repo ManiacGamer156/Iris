@@ -25,12 +25,6 @@ public class SodiumVersionCheck {
 	}
 
 	public static boolean isAllowedVersion(String sodiumVersion) {
-		for (AllowedSodiumVersion allowed : ALLOWED_SODIUM_VERSIONS) {
-			if (allowed.matches(sodiumVersion)) {
-				return true;
-			}
-		}
-
-		return false;
+		return true;
 	}
 }
